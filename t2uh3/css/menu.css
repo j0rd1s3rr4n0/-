@@ -1,0 +1,15 @@
+/*MENU*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+/* *{font-family: 'Ubuntu', sans-serif;} */
+body{background-color: black;}
+.clase {background-color: darkred; list-style-type: none;text-align:center;margin: 0px;padding: 0px;vertical-align: center;}
+.clase li {display: inline-block;font-size: 100%;padding-left:5%;}
+a#logo{background-image: url(../img/logo.svg);background-size: auto auto;background-repeat: no-repeat;background-position: center;width:100%;padding-left: 0%;padding-right: 1%;filter:contrast(100%);filter: brightness(200%);filter: blur(1px);}
+a:link{color:white;text-decoration: none;font-family: 'Staatliches', cursive;font-size: 200%;}/* :link - a normal, unvisited link */
+a:hover{color:white;text-decoration: none;font-family: 'Staatliches', cursive;font-size: 200%;} /* :visited - a link the user has visited */
+a:visited{color:white;text-decoration: none;font-family: 'Staatliches', cursive;font-size: 200%;} /* :hover - a link when the user mouses over it */
+a:active{color:white;text-decoration: none;font-family: 'Staatliches', cursive;font-size: 200%;}/* :active - a link the moment it is clicked*/
+* {;margin: 0%; } /* Quita la separacion por defecto */
+iframe{
+    border:0;
+}

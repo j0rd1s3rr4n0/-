@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+.harina{list-style-image:url(harina.png);width:5px;}
+.huevos{list-style-image:url(huevos.png);width:5px;}
+.leche{list-style-image:url(leche.png);width:5px;}
+.mantequilla{list-style-image:url(mantequilla2.png);width:5px;}
+.azucar{list-style-image:url(azucar.png);width:5px;}
+.sal{list-style-image:url(sal.png);background-size: contain;}
+*{color:white;}
+/*p,strong,li{color:black;}*/

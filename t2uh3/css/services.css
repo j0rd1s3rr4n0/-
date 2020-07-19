@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+* {font-family: 'Ubuntu', sans-serif;}
+body{background-color: black;}
+a, a:hover, a:active {background-color: rgba(169,3,41,1);}
+table.services{background-color: black;}
+tr.servicesw{background-color: #a2231d;}
+td.borderll{background-color: #a2231d;}
+td.borderrr{background-color: #a2231d;}
+td.bordertt{background-color: #a2231d;}
+td.borderbb{background-color: #a2231d;}
+a:link,a:visited {background-color:#a2231d;}
+tr,td{height:20px;width:20px;vertical-align: middle;}
+td{vertical-align: middle;text-align: center;}
+table,tbody,tr,td {border-collapse: collapse;vertical-align: middle;/*border:1px white solid;*/}
+.bottom{border-radius: 10px 10px 10px 10px;}
+.stit{font-family: 'Ubuntu', sans-serif;/*font-family:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;*/font-size:15px;font-weight: bold;font-style: ;color: ;text-transform: uppercase;}
+.euro{font-size: 25px;vertical-align: top;}
+.mes{font-size: 25px;}
+.serviceurl{text-decoration: none;/*background-color:#a2231d;*/height: 100%;width: 100%;/*border:0px white solid;*/}
+.nodec{text-decoration: none;color:white;}
+a.butt-car{background-color: white;}
+a.grass{font-family: 'Ubuntu', sans-serif;background-color: blue;color:white;/*font-weight:bold;*/padding:10px;padding-left: 5%;padding-right: 5%;border:0px black solid;background-color: #a2231d;border-radius: 20px 20px 20px 20px;text-decoration: none;text-transform: uppercase;}
+a.grass:hover{background-color:red;}
+td.recomendado{vertical-align: middle;text-align:center;background-color:purple;height:30px;color:white;}
+td.masvenido{vertical-align: middle;text-align:center;background-color:white;height:30px;}
+td.aalt{border-radius: 10px 10px 0px 0px;}
+td.abaj{border-radius: 0px 0px 10px 10px;}
+img.imgnodec{filter:invert(100%);}
+
+
+.req{
+  /*border:1px yellow solid;*/
+  vertical-align: middle;
+  text-align: center;
+  width: 380px;
+}
