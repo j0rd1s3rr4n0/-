@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  background: url("https://imgur.com/Gxjz2cW.png");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position:center;
+  color: white;
+  font-family: "Lato", "Lucida Grande","Lucida Sans Unicode", Tahoma, Sans-Serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+h1, h2, h3 {
+  font-family: "Lato", "Lucida Grande","Lucida Sans Unicode", Tahoma, Sans-Serif;
+}
+
+.top-bar {
+  margin-bottom: 50px;
+}
+
+.top-bar,
+.top-bar ul {
+  background-color: #222;
+}
+
+.abs-cen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.message {
+  font-size: 24px;
+}
+
+.giant-circle {
+  width: 320px;
+  height: 320px;
+  border-radius: 300px;
+  background: transpartent;
+  display: inline-block;
+}
+.giant-circle img {
+  width: 300px;
+  max-width: none;
+}
+.giant-circle svg .flashy-stroke {
+  display: none;
+}
+
+#logo {
+  height: 40px;
+}
+
+svg {
+  visibility: hidden;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  overflow: hidden;
+  font-family: "Lato", "Lucida Grande","Lucida Sans Unicode", Tahoma, Sans-Serif;
+  -webkit-appearance: none;
+  font-size: 1rem;
+  text-shadow: none;
+  line-height: 1.2;
+  display: inline-block;
+  border: 0;
+  outline: 0;
+  padding: 10px 16px;
+  margin: 10px ;
+  position: relative;
+  border-radius: 0px;
+  border: 0px solid transparent;
+  color: white;
+  cursor: pointer;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-decoration: none !important;
+  cursor: pointer;
+  text-align: center;
+  font-weight: normal !important;
+  z-index: 9;
+  border-radius: 2px;
+  background: #333;
+}
+button.outline {
+  border: 3px solid #343436;
+  border-radius: 2px;
+  background: none;
+}
+
+.thick-message {
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;
+}
+
+.no-stroke svg .flashy-stroke {
+  display: none;
+}
+
+[data-rel="add-flash"] {
+  position: relative;
+  overflow: hidden;
+}
+[data-rel="add-flash"] svg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  width: calc(100% - 2px);
+  height: 100%;
+  height: calc(100% - 2px);
+}
+button:hover{
+  border: 1px white solid;
+}
+footer{
+  display:block;
+}
